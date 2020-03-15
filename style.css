@@ -1,0 +1,106 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+.header{
+    background-image: url("https://images.unsplash.com/photo-1570608296337-863fcc00bf71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1056&q=80");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; 
+    background-attachment: fixed;
+    padding: 20px;
+    height: 400px;
+    z-index: 2; 
+  }
+  .header-title{
+    font-family: 'Amatic SC'; font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#f8f8f5;
+  }
+  .header-nav a{
+   text-decoration: none;
+   font-family: Amatic SC; font-size: 20px;
+   background-color: rgba(255, 255, 255, 0.4);
+   color: #f8f8f5;  
+  }
+  .main{
+     background: #cf8018;
+     background-image: linear-gradient(to bottom, #cf8018, #ebdb07);   
+  }
+  .alignleft{
+    float: left;
+    margin-right: 15px;
+  }
+  .performances-bis{
+    color:#f8f8f5;
+  }
+  .about-us{
+    color:#f8f8f5;
+  }
+  .prices{
+    color:#f8f8f5;
+  }
+  .contact-us{
+    color:#f8f8f5;
+  }
+   .left-laugh{
+      float: left;, rgb(241, 207, 12)
+      margin-left: 10px;
+      margin-right: 10px;
+      left:0;
+      width:33%;
+      overflow: hidden;   
+  }
+   .center-dream{
+      position: absolute;
+      margin-left: 10px;
+      margin-right: 10px;
+      left:40%;
+      width:33%;
+      overflow: hidden;
+  }
+  .right-marvel{
+      position: absolute;
+      float: right;
+      margin-left: 10px;
+      margin-right: 10px;
+      left:80%;
+      width:33%;
+      overflow: hidden;
+  }
+  .hr{
+    clear: both;  
+  }
+  .hr-bis{
+    clear: both;
+  }
+  .tableau{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+  .footer{
+   background: #cf8018; 
+  }
+  
